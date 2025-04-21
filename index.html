@@ -16,7 +16,7 @@
         const urlSearchParams = new URLSearchParams(window.location.search)
         const params = Object.fromEntries(urlSearchParams.entries())
         const div = document.querySelector('#params')
-        div.innerText = JSON.stringify(params);
+        div.innerText = JSON.stringify(window.Telegram.WebApp.initData);
       </script>
     </body>
 </html>
